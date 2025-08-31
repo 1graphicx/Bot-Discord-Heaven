@@ -18,9 +18,9 @@ Bot Discord complet avec système de tickets, modération, utilitaires et plus e
 
 ### 🛡️ **Configuration Sécurisée**
 
-**Pour Railway (Recommandé) :**
-1. Allez dans votre projet Railway
-2. Onglet "Variables"
+**Pour Render (Recommandé) :**
+1. Allez dans votre projet Render
+2. Onglet "Environment"
 3. Ajoutez : `DISCORD_TOKEN` = votre_token_discord
 4. **Ne mettez jamais le token dans le code !**
 
@@ -30,34 +30,39 @@ Bot Discord complet avec système de tickets, modération, utilitaires et plus e
 echo "DISCORD_TOKEN=votre_token_ici" > .env
 ```
 
-## 🚀 Déploiement sur Railway
+## 🚀 Déploiement sur Render
 
 ### Prérequis
 - Compte Discord Developer
 - Token de bot Discord
-- Compte Railway
+- Compte Render
 
 ### Étapes de déploiement
 
 1. **Forkez ce repository** sur GitHub
 
-2. **Connectez-vous à Railway**
-   - Allez sur [railway.app](https://railway.app)
+2. **Connectez-vous à Render**
+   - Allez sur [render.com](https://render.com)
    - Connectez-vous avec GitHub
 
-3. **Créez un nouveau projet**
-   - Cliquez "Start a New Project"
-   - Sélectionnez "Deploy from GitHub repo"
-   - Choisissez votre repository
+3. **Créez un nouveau Web Service**
+   - Cliquez "New +" → "Web Service"
+   - Connectez votre GitHub et sélectionnez ce repository
 
-4. **Configurez les variables d'environnement**
-   - Dans l'onglet "Variables"
+4. **Configurez le service**
+   - **Name** : `discord-bot` (ou ce que vous voulez)
+   - **Environment** : `Python 3`
+   - **Build Command** : `pip install -r requirements.txt`
+   - **Start Command** : `python python_bot.py`
+
+5. **Configurez les variables d'environnement**
+   - Dans l'onglet "Environment"
    - Ajoutez : `DISCORD_TOKEN` = votre_token_discord
    - **IMPORTANT : Ne mettez jamais le token dans le code !**
 
-5. **Déployez**
-   - Railway détecte automatiquement Python
-   - Le bot se déploie automatiquement
+6. **Déployez**
+   - Cliquez "Create Web Service"
+   - Render déploiera automatiquement votre bot
 
 ## 📋 Fonctionnalités
 
@@ -104,7 +109,7 @@ DISCORD_TOKEN=votre_token_discord_ici
 BOT/
 ├── python_bot.py          # Fichier principal
 ├── requirements.txt       # Dépendances Python
-├── railway.json          # Configuration Railway
+├── render.yaml           # Configuration Render
 ├── Procfile             # Configuration Heroku
 ├── runtime.txt          # Version Python
 ├── .gitignore           # Fichiers ignorés
@@ -151,6 +156,7 @@ Le bot utilise un système de logging avancé :
 - Logs détaillés pour le debugging
 - Gestion d'erreurs robuste
 - Monitoring des performances
+- **Logs Render** : Onglet "Logs" dans votre service
 
 ## 🔒 Sécurité
 
@@ -163,7 +169,7 @@ Le bot utilise un système de logging avancé :
 ## 📞 Support
 
 Pour toute question ou problème :
-1. Vérifiez les logs Railway
+1. Vérifiez les logs Render
 2. Consultez la documentation Discord.py
 3. Ouvrez une issue sur GitHub
 
