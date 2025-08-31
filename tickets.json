@@ -1,0 +1,134 @@
+{
+  "1350971056730673154": {
+    "config": {
+      "channel_id": 1351487567517847564,
+      "category_id": 1351487647280922709,
+      "support_role_id": 1352337453507416075,
+      "admin_role_id": 1352337250783989953,
+      "designer_role_id": 1352234039255240789,
+      "welcome_message": "Veuillez patienter, votre graphiste arrive bientôt !",
+      "max_tickets": 3,
+      "image_url": "https://cdn.discordapp.com/attachments/1351595532191273083/1409966101349138542/BANNERS_HEAVEN_CC.png?ex=68b53b82&is=68b3ea02&hm=519de0de1ed10ff03816e29015565b4020604e09dfec4ce0b65658bbd1595ff5&",
+      "embed_title": "👉 COMMANDER UNE BANNIÈRE",
+      "embed_description": "Pour toute commande, tu peux directement utiliser le bouton ci-dessous.",
+      "setup_by": 1092527485561880706,
+      "setup_at": "2025-08-31T16:25:18.253084"
+    },
+    "tickets": {
+      "ticket-1": {
+        "channel_id": 1409954929879158816,
+        "creator_id": 589112893333569538,
+        "created_at": "2025-08-26T19:37:30.787605",
+        "status": "closed",
+        "closed_by": 589112893333569538,
+        "closed_at": "2025-08-26T19:38:22.631389"
+      },
+      "ticket-2": {
+        "channel_id": 1409954958765326337,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-26T19:37:37.731537",
+        "status": "open"
+      },
+      "ticket-3": {
+        "channel_id": 1409961005668106292,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-26T20:01:39.362068",
+        "status": "closed",
+        "closed_by": 1092527485561880706,
+        "closed_at": "2025-08-26T20:01:49.748880"
+      },
+      "ticket-4": {
+        "channel_id": 1409967347850154117,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-26T20:26:51.787825",
+        "status": "closed",
+        "closed_by": 1092527485561880706,
+        "closed_at": "2025-08-26T20:27:08.603213"
+      },
+      "ticket-5": {
+        "channel_id": 1411711305068445756,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T15:56:45.215211",
+        "status": "closed",
+        "closed_by": 1092527485561880706,
+        "closed_at": "2025-08-31T16:01:54.809649"
+      },
+      "ticket-6": {
+        "channel_id": 1411711412685766657,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T15:57:10.497629",
+        "status": "closed",
+        "closed_by": 1092527485561880706,
+        "closed_at": "2025-08-31T16:01:52.071782"
+      },
+      "ticket-7": {
+        "channel_id": 1411712620393922560,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T16:01:58.583547",
+        "status": "open"
+      },
+      "ticket-8": {
+        "channel_id": 1411718591212032122,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T16:25:42.656060",
+        "status": "closed",
+        "closed_by": 1092527485561880706,
+        "closed_at": "2025-08-31T16:26:11.357309"
+      },
+      "ticket-9": {
+        "channel_id": 1411718649898733729,
+        "creator_id": 589112893333569538,
+        "created_at": "2025-08-31T16:25:56.772386",
+        "status": "open"
+      },
+      "ticket-10": {
+        "channel_id": 1411720136788021391,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T16:31:51.156789",
+        "status": "closed",
+        "closed_by": 1092527485561880706,
+        "closed_at": "2025-08-31T16:37:40.991274"
+      },
+      "ticket-11": {
+        "channel_id": 1411720157151363134,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T16:31:56.121030",
+        "status": "open"
+      },
+      "ticket-12": {
+        "channel_id": 1411720176973512846,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T16:32:01.379912",
+        "status": "open"
+      },
+      "ticket-13": {
+        "channel_id": 1411721669327716452,
+        "creator_id": 1092527485561880706,
+        "created_at": "2025-08-31T16:37:56.756762",
+        "status": "open"
+      },
+      "ticket-14": {
+        "channel_id": 1411721885250617436,
+        "creator_id": 589112893333569538,
+        "created_at": "2025-08-31T16:38:48.162302",
+        "status": "closed",
+        "closed_by": 589112893333569538,
+        "closed_at": "2025-08-31T16:39:04.971528"
+      },
+      "ticket-15": {
+        "channel_id": 1411722889828503666,
+        "creator_id": 873176863965589564,
+        "created_at": "2025-08-31T16:42:47.694319",
+        "status": "open"
+      },
+      "ticket-16": {
+        "channel_id": 1411724325945475073,
+        "creator_id": 589112893333569538,
+        "created_at": "2025-08-31T16:48:29.916507",
+        "status": "closed",
+        "closed_by": 589112893333569538,
+        "closed_at": "2025-08-31T16:51:57.733985"
+      }
+    }
+  }
+}
